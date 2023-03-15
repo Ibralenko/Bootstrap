@@ -1,0 +1,39 @@
+.g-content {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+
+/* .header {
+    display: flex;
+    justify-content: space-between;
+} */
+
+.header__logo-image {
+    width: 201px;
+    height: 40px;
+}
+
+.header__btn {
+    width: 115px;
+    height: 38px;
+    border: none;
+    background-color: rgba(82, 34, 208, 1);
+    border-radius: 100px;
+    font-family: 'Signika', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 13px;
+    color: #FFFFFF;
+}
+
+.header__btn::after {
+    content: url(/image/svg/ico.svg);
+    margin-left: 5px;
+}
+
+.hero__card {
+    width: 440px;
+    height: 550px;
+}
