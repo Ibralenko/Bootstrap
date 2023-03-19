@@ -145,3 +145,9 @@
     line-height: 160%;
     color: #000000;
 }
+
+.footer__menu-link:hover,
+.footer__menu-link:focus,
+.footer__menu-link:active {
+    opacity: 75%;
+}
